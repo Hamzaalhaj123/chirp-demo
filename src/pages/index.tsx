@@ -8,7 +8,7 @@ import type { RouterOutputs } from "~/utils/api";
 import dayjs from "dayjs";
 import relativeTime from "dayjs/plugin/relativeTime";
 import Image from "next/image";
-import { LoadingPage } from "~/components/loading";
+import { LoadingPage } from "../components/loading";
 import { useState } from "react";
 
 dayjs.extend(relativeTime);
